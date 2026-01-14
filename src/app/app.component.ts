@@ -102,7 +102,7 @@ export class AppComponent implements OnInit {
         [
            AsyncEmailValidator.isEmailExist
         ]
-    ),
+    ), 
       empId: new FormControl(null, [
         Validators.required,
         EmpIdValidator.isEmpIdValid
